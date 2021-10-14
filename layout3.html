@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài Tập Layout 3</title>
+    <style>
+        body{
+            min-height: 900px;
+            margin auto;
+            font-family: Tahoma;
+        }
+        p{
+            margin: auto;
+        }
+        #container{
+            min-height: 900px;
+            width: 1200px;
+            background: darkturquoise;
+            margin: auto;
+        }
+        #container header{
+            height: 120px;
+            background: chocolate;
+        }
+        #container header h5{
+            text-align: center;
+        }
+        #container nav{
+            height: 400px;
+            background: coral;
+        }
+        #container #content{
+            min-height: 500px;
+            background: white;
+            overflow: auto;
+        }
+        #container #content h5{
+            text-align: center;
+        }
+        #container #content .item{
+            height: 220px;
+            width: 180px;
+            float: left;
+            clear: right;
+            border: 2px solid red;
+            margin: 59px;
+            padding: 49px;
+        }
+        #container footer{
+            height: 120px;
+            background: blueviolet;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <header>
+        <div>
+            <h5>HEADER</h5>
+        </div>
+    </header>
+    <nav></nav>
+    <section id="content">
+        <div id="service">
+            <h5>OUR SERVICE</h5>
+            <div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+                <div class="item">SERVICE ITEM</div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</div>
+</body>
+</html>
